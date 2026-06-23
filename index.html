@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Agent Tempo</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to app</a>
+    <main id="main" class="app-shell" aria-labelledby="app-title">
+      <div id="app" class="app-root">
+        <section class="boot-panel" aria-label="Loading">
+          <p>Agent Tempo</p>
+        </section>
+      </div>
+    </main>
+    <noscript>
+      <p class="noscript">Agent Tempo needs JavaScript to store your local session in this browser.</p>
+    </noscript>
+    <script src="./src/storage.js" defer></script>
+    <script src="./src/i18n.js" defer></script>
+    <script src="./src/app.js" defer></script>
+  </body>
+</html>

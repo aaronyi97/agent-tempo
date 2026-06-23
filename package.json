@@ -1,0 +1,48 @@
+{
+  "name": "agent-tempo",
+  "version": "0.1.0",
+  "description": "Local-first focus rhythm board for human-agent collaboration.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "serve": "node scripts/serve.js",
+    "privacy:scan": "node scripts/privacy-scan.js",
+    "check": "node --test && node scripts/privacy-scan.js"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "focus",
+    "local-first",
+    "productivity",
+    "claude-code",
+    "codex"
+  ],
+  "author": "Aaron Yi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronyi97/agent-tempo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaronyi97/agent-tempo/issues"
+  },
+  "homepage": "https://github.com/aaronyi97/agent-tempo#readme",
+  "files": [
+    "index.html",
+    "src",
+    "scripts",
+    "docs/PRIVACY.md",
+    "docs/PRODUCT.md",
+    "README.md",
+    "README.zh-CN.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "privacy-manifest.json",
+    "privacy-blocklist.example.json",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

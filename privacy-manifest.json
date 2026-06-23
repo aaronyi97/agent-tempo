@@ -1,0 +1,37 @@
+{
+  "name": "agent-tempo",
+  "version": 1,
+  "stance": "local-first",
+  "defaultNetwork": "none",
+  "accounts": "none",
+  "telemetry": "none",
+  "storage": [
+    {
+      "type": "browser-localStorage",
+      "key": "agent-tempo:v1",
+      "purpose": "Local planning board state for daily outcomes, agent runs, human tasks, parked ideas, and review decisions."
+    }
+  ],
+  "notSuitableFor": [
+    "secrets",
+    "customer records",
+    "regulated data",
+    "full private conversations",
+    "production incident logs"
+  ],
+  "scanner": {
+    "command": "node scripts/privacy-scan.js",
+    "blocks": [
+      "private local path markers",
+      "private workspace markers",
+      "governance source markers",
+      "tool configuration markers",
+      "secret-like token patterns",
+      "private-key blocks"
+    ],
+    "allows": [
+      "localStorage",
+      "agent-tempo:v1"
+    ]
+  }
+}
