@@ -1,3 +1,5 @@
+> Status: experimental, not the current main line. Not actively promoted for now, unless long-running AI task supervision becomes its own theme later. Start here instead: DoneTrace.
+
 # Agent Tempo
 
 Agent Tempo is a local-first bilingual web app for keeping human-agent collaboration in rhythm.
