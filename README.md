@@ -1,4 +1,4 @@
-> Status: experimental, not the current main line. Not actively promoted for now, unless long-running AI task supervision becomes its own theme later. Start here instead: DoneTrace.
+> Status: experimental module, not the current main line in my broader AI Workflow Diagnostics system. Not actively promoted for now, unless long-running AI task supervision becomes its own theme later. Start here instead: [DoneTrace](https://github.com/aaronyi97/ai-collab-open-system).
 
 # Agent Tempo
 
